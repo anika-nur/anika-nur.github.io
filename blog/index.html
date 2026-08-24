@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Nur's Utopia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Crimson+Text:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<svg class="grain-overlay" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><filter id="grain-f" x="0%" y="0%" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.70 0.52" numOctaves="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grain-f)"/></svg>
+
+<div class="particles" id="particles"></div>
+
+<!-- ═══════ NAV ═══════ -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="../index.html">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        <path d="M11 2 C11 2, 6 6, 6 11 C6 14.3 8.2 17 11 18 C13.8 17 16 14.3 16 11 C16 6 11 2 11 2Z" stroke="#9e7840" stroke-width="1.2" fill="rgba(201,169,110,0.15)"/>
+        <circle cx="11" cy="11" r="2.5" stroke="#9e7840" stroke-width="1" fill="rgba(214,205,232,0.5)"/>
+        <path d="M5 8 Q11 4 17 8" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+      </svg>
+      Nur's Utopia
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../projects/index.html">Projects</a></li>
+      <li><a href="../writings/index.html">Writings</a></li>
+      <li><a href="index.html">Blog</a></li>
+      <li><a href="../index.html#reviews">Reviews</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════ BLOG ARCHIVE ═══════ -->
+<section class="section-wrap writings-hub-section">
+  <div style="max-width:760px; margin:0 auto; padding:0 0 1rem;">
+
+    <a href="../index.html#blog" class="back-link">← Back to Home</a>
+
+    <div class="section-header reveal">
+      <svg class="section-deco-icon" width="30" height="32" viewBox="0 0 30 32" fill="none" aria-hidden="true">
+        <path d="M15 4 L23 14 L15 27 L7 14 Z" stroke="#c4948a" stroke-width="1" fill="rgba(196,148,138,0.18)" stroke-linejoin="round"/>
+        <line x1="15" y1="4" x2="15" y2="27" stroke="#c4948a" stroke-width="0.7" opacity="0.5"/>
+        <path d="M11 14 L15 27 L19 14" stroke="#c4948a" stroke-width="0.8" fill="none" stroke-linejoin="round"/>
+        <circle cx="15" cy="30" r="2" fill="#c4948a" opacity="0.7"/>
+      </svg>
+      <span class="section-label">— the workshop —</span>
+      <h2 class="section-title">Blog</h2>
+      <div class="section-ornament">✦ · ✦ · ✦</div>
+    </div>
+
+    <div id="blogArchive"></div>
+
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <svg width="60" height="45" viewBox="0 0 60 45" fill="none" style="margin-bottom:1.25rem; opacity:0.5" aria-hidden="true">
+    <ellipse cx="30" cy="30" rx="18" ry="10" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.1)"/>
+    <ellipse cx="30" cy="22" rx="12" ry="11" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.15)"/>
+    <path d="M20 16 L15 5 L26 14Z" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.2)"/>
+    <path d="M40 16 L45 5 L34 14Z" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.2)"/>
+    <circle cx="24" cy="21" r="2.5" fill="#2c2535"/>
+    <circle cx="36" cy="21" r="2.5" fill="#2c2535"/>
+    <circle cx="25" cy="20" r="1" fill="white" opacity="0.7"/>
+    <circle cx="37" cy="20" r="1" fill="white" opacity="0.7"/>
+    <path d="M48 28 Q58 22 60 14 Q58 8 52 12" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+  </svg>
+
+  <p class="footer-title">Nur's Utopia</p>
+  <p class="footer-tagline">where stories live and code breathes</p>
+
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../projects/index.html">Projects</a>
+    <a href="../writings/index.html">Writings</a>
+    <a href="index.html">Blog</a>
+    <a href="../index.html#reviews">Reviews</a>
+    <a href="../index.html#contact">Contact</a>
+  </div>
+
+  <p class="footer-copy">crafted with ✦ and a great deal of tea · 2025</p>
+</footer>
+
+<script src="../blog-data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../likes.js"></script>
+<script>
+  function likeButtonHtml(likeId, big) {
+    return `
+      <button class="like-star-btn${big ? ' like-star-btn-lg' : ''}" data-like-id="${likeId}" type="button" aria-pressed="false" aria-label="Star this piece" disabled>
+        <svg class="like-star-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 L14.9 9.1 L22 9.9 L16.7 14.6 L18.2 21.6 L12 18 L5.8 21.6 L7.3 14.6 L2 9.9 L9.1 9.1 Z"/></svg>
+        <span class="like-star-count">·</span>
+      </button>
+    `;
+  }
+
+  const archive = document.getElementById('blogArchive');
+  archive.innerHTML = blogData.map(p => `
+    <div class="blog-post reveal">
+      <div class="blog-date-col">
+        <span class="blog-month">${p.month}</span>
+        <span class="blog-day">${p.day}</span>
+      </div>
+      <div>
+        <a href="post.html?id=${p.id}" class="blog-post-title">${p.title}</a>
+        <div class="blog-tags">
+          ${p.tags.map(t => `<span class="blog-tag">${t}</span>`).join('')}
+        </div>
+        <p class="blog-excerpt">${p.excerpt}</p>
+        <div class="card-footer-row">
+          <a href="post.html?id=${p.id}" class="writing-link">Read more →</a>
+          ${likeButtonHtml('blog:' + p.id)}
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  const container = document.getElementById('particles');
+  const colours = ['#b4c2d4','#c4948a','#9eb08c','#c9a96e','#f0e5d0'];
+  for (let i = 0; i < 22; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    const size = Math.random() * 4 + 2;
+    p.style.cssText = `
+      width:${size}px; height:${size}px;
+      background:${colours[Math.floor(Math.random()*colours.length)]};
+      left:${Math.random()*100}%;
+      animation-duration:${Math.random()*18+12}s;
+      animation-delay:${Math.random()*-20}s;
+    `;
+    container.appendChild(p);
+  }
+
+  const ham = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  ham.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  if (window.initLikeButtons) initLikeButtons();
+</script>
+
+</body>
+</html>

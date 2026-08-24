@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Writings — Nur's Utopia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Crimson+Text:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<svg class="grain-overlay" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><filter id="grain-f" x="0%" y="0%" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.70 0.52" numOctaves="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grain-f)"/></svg>
+
+<div class="particles" id="particles"></div>
+
+<!-- ═══════ NAV ═══════ -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="../index.html">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        <path d="M11 2 C11 2, 6 6, 6 11 C6 14.3 8.2 17 11 18 C13.8 17 16 14.3 16 11 C16 6 11 2 11 2Z" stroke="#9e7840" stroke-width="1.2" fill="rgba(201,169,110,0.15)"/>
+        <circle cx="11" cy="11" r="2.5" stroke="#9e7840" stroke-width="1" fill="rgba(214,205,232,0.5)"/>
+        <path d="M5 8 Q11 4 17 8" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+      </svg>
+      Nur's Utopia
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../projects/index.html">Projects</a></li>
+      <li><a href="index.html">Writings</a></li>
+      <li><a href="../blog/index.html">Blog</a></li>
+      <li><a href="../index.html#reviews">Reviews</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════ WRITINGS HUB ═══════ -->
+<section class="section-wrap writings-hub-section">
+  <div style="max-width:1000px; margin:0 auto; padding:0 0 1rem;">
+
+    <div class="section-header reveal">
+      <svg class="section-deco-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+        <path d="M24 4 C18 7 7 18 5 27" stroke="#9eb08c" stroke-width="1" fill="none" stroke-linecap="round"/>
+        <path d="M24 4 C27 8 22 13 19 16 C16 18 7 24 5 27" fill="rgba(158,176,140,0.28)" stroke="#9eb08c" stroke-width="0.8"/>
+        <path d="M9 22 L5 27 L8 24 L6 29 L10 24Z" fill="#9eb08c"/>
+        <path d="M18 9 C16 12 12 17 10 20" stroke="#9eb08c" stroke-width="0.5" fill="none" stroke-linecap="round" opacity="0.55"/>
+        <path d="M21 7 C19 10 14 15 12 18" stroke="#9eb08c" stroke-width="0.5" fill="none" stroke-linecap="round" opacity="0.55"/>
+      </svg>
+      <span class="section-label">— the library —</span>
+      <h2 class="section-title">My Writings</h2>
+      <div class="section-ornament">✦ · ✦ · ✦</div>
+    </div>
+
+    <div class="writings-grid" id="writingsArchive"></div>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <svg width="60" height="45" viewBox="0 0 60 45" fill="none" style="margin-bottom:1.25rem; opacity:0.5" aria-hidden="true">
+    <ellipse cx="30" cy="30" rx="18" ry="10" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.1)"/>
+    <ellipse cx="30" cy="22" rx="12" ry="11" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.15)"/>
+    <path d="M20 16 L15 5 L26 14Z" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.2)"/>
+    <path d="M40 16 L45 5 L34 14Z" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.2)"/>
+    <circle cx="24" cy="21" r="2.5" fill="#2c2535"/>
+    <circle cx="36" cy="21" r="2.5" fill="#2c2535"/>
+    <circle cx="25" cy="20" r="1" fill="white" opacity="0.7"/>
+    <circle cx="37" cy="20" r="1" fill="white" opacity="0.7"/>
+    <path d="M48 28 Q58 22 60 14 Q58 8 52 12" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+  </svg>
+
+  <p class="footer-title">Nur's Utopia</p>
+  <p class="footer-tagline">where stories live and code breathes</p>
+
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="../projects/index.html">Projects</a>
+    <a href="index.html">Writings</a>
+    <a href="../blog/index.html">Blog</a>
+    <a href="../index.html#reviews">Reviews</a>
+    <a href="../index.html#contact">Contact</a>
+  </div>
+
+  <p class="footer-copy">crafted with ✦ and a great deal of tea · 2025</p>
+</footer>
+
+<script src="../writings-data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../likes.js"></script>
+<script>
+  function likeButtonHtml(likeId, big) {
+    return `
+      <button class="like-star-btn${big ? ' like-star-btn-lg' : ''}" data-like-id="${likeId}" type="button" aria-pressed="false" aria-label="Star this piece" disabled>
+        <svg class="like-star-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 L14.9 9.1 L22 9.9 L16.7 14.6 L18.2 21.6 L12 18 L5.8 21.6 L7.3 14.6 L2 9.9 L9.1 9.1 Z"/></svg>
+        <span class="like-star-count">·</span>
+      </button>
+    `;
+  }
+
+  function flourishFor(genre) {
+    const flourishes = {
+      'Poetry': `<circle cx="60" cy="60" r="40" stroke="#b8aad4" stroke-width="0.8" fill="none" stroke-dasharray="4 6"/>`,
+      'Essay': `<path d="M60 10 Q20 60 60 110 Q100 60 60 10Z" stroke="#c9a96e" stroke-width="1" fill="none"/>`
+    };
+    return flourishes[genre] || `<path d="M20 100 Q60 20 100 80 Q80 40 40 60" stroke="#6e5f82" stroke-width="1" fill="none"/>`;
+  }
+
+  /* cards with an unusually long excerpt span two grid columns instead of
+     stretching their row-mates to match their height */
+  const WIDE_EXCERPT_THRESHOLD = 300;
+  const wideClass = text => text.length > WIDE_EXCERPT_THRESHOLD ? ' card-wide' : '';
+
+  const archive = document.getElementById('writingsArchive');
+  archive.innerHTML = writingsData.map(w => `
+    <article class="writing-card reveal${wideClass(w.excerpt)}">
+      <svg class="ink-flourish" width="120" height="120" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        ${flourishFor(w.genre)}
+      </svg>
+      <p class="writing-genre">${w.genre}</p>
+      <h3 class="writing-title">${w.title}</h3>
+      <p class="writing-excerpt">"${w.excerpt}"</p>
+      <div class="card-footer-row">
+        <a href="writing.html?id=${w.id}" class="writing-link">Read more →</a>
+        ${likeButtonHtml('writing:' + w.id)}
+      </div>
+    </article>
+  `).join('');
+
+  const container = document.getElementById('particles');
+  const colours = ['#b4c2d4','#c4948a','#9eb08c','#c9a96e','#f0e5d0'];
+  for (let i = 0; i < 22; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    const size = Math.random() * 4 + 2;
+    p.style.cssText = `
+      width:${size}px; height:${size}px;
+      background:${colours[Math.floor(Math.random()*colours.length)]};
+      left:${Math.random()*100}%;
+      animation-duration:${Math.random()*18+12}s;
+      animation-delay:${Math.random()*-20}s;
+    `;
+    container.appendChild(p);
+  }
+
+  const ham = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  ham.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  if (window.initLikeButtons) initLikeButtons();
+</script>
+
+</body>
+</html>

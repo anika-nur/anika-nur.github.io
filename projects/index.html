@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Computational Projects — Nur's Utopia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Crimson+Text:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<svg class="grain-overlay" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><filter id="grain-f" x="0%" y="0%" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.70 0.52" numOctaves="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grain-f)"/></svg>
+
+<div class="particles" id="particles"></div>
+
+<!-- ═══════ NAV ═══════ -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="../index.html">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        <path d="M11 2 C11 2, 6 6, 6 11 C6 14.3 8.2 17 11 18 C13.8 17 16 14.3 16 11 C16 6 11 2 11 2Z" stroke="#9e7840" stroke-width="1.2" fill="rgba(201,169,110,0.15)"/>
+        <circle cx="11" cy="11" r="2.5" stroke="#9e7840" stroke-width="1" fill="rgba(214,205,232,0.5)"/>
+        <path d="M5 8 Q11 4 17 8" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+      </svg>
+      Nur's Utopia
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="index.html">Projects</a></li>
+      <li><a href="../writings/index.html">Writings</a></li>
+      <li><a href="../blog/index.html">Blog</a></li>
+      <li><a href="../index.html#reviews">Reviews</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════ PROJECTS ARCHIVE ═══════ -->
+<section class="section-wrap writings-hub-section">
+  <div style="max-width:1000px; margin:0 auto; padding:0 0 1rem;">
+
+    <a href="../index.html#projects" class="back-link">← Back to Home</a>
+
+    <div class="section-header reveal">
+      <svg class="section-deco-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+        <circle cx="15" cy="15" r="3" fill="rgba(180,194,212,0.55)" stroke="#b4c2d4" stroke-width="0.9"/>
+        <ellipse cx="15" cy="15" rx="12" ry="4.5" stroke="#b4c2d4" stroke-width="0.9" fill="none"/>
+        <ellipse cx="15" cy="15" rx="12" ry="4.5" stroke="#b4c2d4" stroke-width="0.9" fill="none" transform="rotate(60 15 15)"/>
+        <ellipse cx="15" cy="15" rx="12" ry="4.5" stroke="#b4c2d4" stroke-width="0.9" fill="none" transform="rotate(-60 15 15)"/>
+      </svg>
+      <span class="section-label">— the lab —</span>
+      <h2 class="section-title">Computational Projects</h2>
+      <div class="section-ornament">✦ · ✦ · ✦</div>
+      <a href="https://github.com/anika-nur" target="_blank" rel="noopener" class="github-profile-link">
+        <svg class="github-icon" width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+        </svg>
+        <span>github.com/anika-nur</span>
+      </a>
+    </div>
+
+    <div class="writings-grid" id="projectsArchive"></div>
+
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <svg width="60" height="45" viewBox="0 0 60 45" fill="none" style="margin-bottom:1.25rem; opacity:0.5" aria-hidden="true">
+    <ellipse cx="30" cy="30" rx="18" ry="10" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.1)"/>
+    <ellipse cx="30" cy="22" rx="12" ry="11" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.15)"/>
+    <path d="M20 16 L15 5 L26 14Z" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.2)"/>
+    <path d="M40 16 L45 5 L34 14Z" stroke="#b8aad4" stroke-width="0.8" fill="rgba(184,170,212,0.2)"/>
+    <circle cx="24" cy="21" r="2.5" fill="#2c2535"/>
+    <circle cx="36" cy="21" r="2.5" fill="#2c2535"/>
+    <circle cx="25" cy="20" r="1" fill="white" opacity="0.7"/>
+    <circle cx="37" cy="20" r="1" fill="white" opacity="0.7"/>
+    <path d="M48 28 Q58 22 60 14 Q58 8 52 12" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+  </svg>
+
+  <p class="footer-title">Nur's Utopia</p>
+  <p class="footer-tagline">where stories live and code breathes</p>
+
+  <div class="footer-links">
+    <a href="../index.html">Home</a>
+    <a href="index.html">Projects</a>
+    <a href="../writings/index.html">Writings</a>
+    <a href="../blog/index.html">Blog</a>
+    <a href="../index.html#reviews">Reviews</a>
+    <a href="../index.html#contact">Contact</a>
+  </div>
+
+  <p class="footer-copy">crafted with ✦ and a great deal of tea · 2025</p>
+</footer>
+
+<script src="../projects-data.js"></script>
+<script>
+  function codeFlourishFor(type) {
+    const shapes = {
+      'Bioinformatics': `
+        <path d="M42 18 Q62 38 42 58 Q22 78 42 100" stroke="#b8c9b0" stroke-width="1" fill="none"/>
+        <path d="M62 18 Q42 38 62 58 Q82 78 62 100" stroke="#b8c9b0" stroke-width="1" fill="none"/>
+        <line x1="42" y1="36" x2="62" y2="42" stroke="#c9a96e" stroke-width="0.8"/>
+        <line x1="37" y1="55" x2="67" y2="55" stroke="#c9a96e" stroke-width="0.8"/>
+        <line x1="42" y1="74" x2="62" y2="68" stroke="#c9a96e" stroke-width="0.8"/>
+      `,
+      'Web App': `
+        <rect x="22" y="28" width="76" height="58" rx="3" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+        <line x1="22" y1="40" x2="98" y2="40" stroke="#b8aad4" stroke-width="0.8"/>
+        <circle cx="31" cy="34" r="2.5" stroke="#e8c8cc" stroke-width="0.8" fill="none"/>
+        <circle cx="39" cy="34" r="2.5" stroke="#b8c9b0" stroke-width="0.8" fill="none"/>
+        <circle cx="47" cy="34" r="2.5" stroke="#c9a96e" stroke-width="0.8" fill="none"/>
+      `,
+    };
+    return shapes[type] || `
+      <circle cx="60" cy="28" r="4" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+      <circle cx="28" cy="76" r="4" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+      <circle cx="92" cy="76" r="4" stroke="#b8aad4" stroke-width="0.8" fill="none"/>
+      <line x1="60" y1="32" x2="28" y2="72" stroke="#6e5f82" stroke-width="0.8"/>
+      <line x1="60" y1="32" x2="92" y2="72" stroke="#6e5f82" stroke-width="0.8"/>
+      <line x1="32" y1="76" x2="88" y2="76" stroke="#6e5f82" stroke-width="0.8"/>
+    `;
+  }
+
+  /* cards with an unusually long excerpt span two grid columns instead of
+     stretching their row-mates to match their height */
+  const WIDE_EXCERPT_THRESHOLD = 300;
+  const wideClass = text => text.length > WIDE_EXCERPT_THRESHOLD ? ' card-wide' : '';
+
+  const archive = document.getElementById('projectsArchive');
+  archive.innerHTML = projectsData.map(p => `
+    <article class="writing-card reveal${wideClass(p.excerpt)}">
+      <svg class="ink-flourish" width="120" height="120" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        ${codeFlourishFor(p.type)}
+      </svg>
+      <p class="writing-genre">${p.type}</p>
+      <h3 class="writing-title">${p.title}</h3>
+      <p class="writing-excerpt">${p.excerpt}</p>
+      <div class="blog-tags" style="margin-top:0.75rem; margin-bottom:0;">
+        ${p.tags.map(t => `<span class="blog-tag">${t}</span>`).join('')}
+      </div>
+      <div class="project-links">
+        ${p.github ? `<a href="${p.github}" target="_blank" rel="noopener" class="project-link-btn">⌥ GitHub</a>` : ''}
+        ${p.live ? `<a href="${p.live}" target="_blank" rel="noopener" class="project-link-btn live">↗ Live demo</a>` : ''}
+      </div>
+    </article>
+  `).join('');
+
+  const container = document.getElementById('particles');
+  const colours = ['#b4c2d4','#c4948a','#9eb08c','#c9a96e','#f0e5d0'];
+  for (let i = 0; i < 22; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    const size = Math.random() * 4 + 2;
+    p.style.cssText = `
+      width:${size}px; height:${size}px;
+      background:${colours[Math.floor(Math.random()*colours.length)]};
+      left:${Math.random()*100}%;
+      animation-duration:${Math.random()*18+12}s;
+      animation-delay:${Math.random()*-20}s;
+    `;
+    container.appendChild(p);
+  }
+
+  const ham = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  ham.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
