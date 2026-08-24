@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anika-nur.github.io/sitemap.xml

@@ -10,7 +10,7 @@
 
 const booksData = [
   {
-    id: "thousand -splendid",
+    id: "thousand-splendid",
     title: "A Thousand Splendid Suns",
     creator: "Khalid Hosseini",
     stars: 5,
