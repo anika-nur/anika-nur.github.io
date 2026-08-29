@@ -678,22 +678,22 @@ print(classes[ans[0]])</code></pre>`,
   day: "17",
   tags: ["Non-technical", "Business"],
   excerpt:
-    "I love café hopping, trying different types of coffee, and finding cafés where I can sit down with my laptop and completely lock in. That curiosity eventually made me wonder what it would actually take to own one--and the business behind a cozy café is much more complicated than it looks.",
+    "I love café hopping, trying different types of coffee, and finding cafés where I can sit down with my laptop and completely lock in. That passion recently made me wonder what it would actually take to own one, and the business behind a cozy café is much more complicated than it looks.",
   body: [
     `<p>
       I love café hopping.
     </p>
 
     <p>
-      Whenever I visit a new neighborhood or travel somewhere unfamiliar, one of the first things I do is look for a good café. I love trying different kinds of coffee, comparing espresso drinks, discovering new beans, noticing how different cafés design their spaces, and finding those places where you can sit down with your laptop and completely lock in for a few hours.
+      Whenever I visit a new neighborhood or travel somewhere unfamiliar, one of the first things I do is look for a good café. I love trying different kinds of coffee and ranking them based on taste, comparing drinks, noticing how different cafés design their spaces, and finding those places where you can sit down with your laptop and completely lock in for a few hours.
     </p>
 
     <p>
-      There is something about cafés that has always appealed to me. The smell of freshly ground coffee, the quiet background conversations, the sound of milk steaming behind the counter, people working on laptops, friends catching up, someone reading alone in the corner--it all creates an atmosphere that I genuinely enjoy.
+      There is something about cafés that has always appealed to me. The sound of baristas tinkering with coffee machines, the smell of fresh coffee, the background activities, , people working on laptops, friends catching up, someone reading alone in the corner--it all creates an atmosphere that I genuinely enjoy.
     </p>
 
     <p>
-      And naturally, after spending so much time in cafés, I started wondering:
+      And after spending so much time in cafés, I started wondering:
     </p>
 
     <p>
@@ -759,15 +759,11 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      That completely changed how I looked at café spaces.
+      That completely changed how I looked at café spaces. Everytime I walking into a new café, how much it cost to build.
     </p>
 
     <p>
       When I walk into a beautiful café now, I don't just see the design.
-    </p>
-
-    <p>
-      I start wondering how much it cost to build.
     </p>`,
 
     `<h2 style="color: #08306B;">Then Comes the Espresso Machine</h2>
@@ -821,7 +817,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      And rent might be one of the most important numbers in the entire café business.
+      And rent might be the single number that matters most in the entire café business.
     </p>
 
     <p>
@@ -851,7 +847,7 @@ print(classes[ans[0]])</code></pre>`,
     `<h2 style="color: #08306B;">The Money You Need After Opening Might Matter More Than the Money You Need to Open</h2>
 
     <p>
-      This was probably one of the most important things I learned.
+      This was probably the thing that changed my understanding the most.
     </p>
 
     <p>
@@ -939,7 +935,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      That means the drink itself can carry a gross margin of roughly <strong>80–85%</strong>.
+      That means the drink itself can carry a gross margin of roughly <strong>80--85%</strong>.
     </p>
 
     <p>
@@ -947,7 +943,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      A coffee sold for around $3.50 might contain only $0.30–$0.40 worth of raw ingredients.
+      A coffee sold for around $3.50 might contain only $0.30--$0.40 worth of raw ingredients.
     </p>
 
     <p>
@@ -1053,11 +1049,11 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      A mature, well-run independent specialty café may achieve something around a <strong>10–15% net profit margin</strong>.
+      A mature, well-run independent specialty café may achieve something around a <strong>10--15% net profit margin</strong>.
     </p>
 
     <p>
-      Across the broader industry, particularly once weaker-performing locations are included, margins can be closer to <strong>5–7%</strong>.
+      Across the broader industry, particularly once weaker-performing locations are included, margins can be closer to <strong>5--7%</strong>.
     </p>
 
     <p>
@@ -1079,7 +1075,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      A well-run independent café may spend roughly <strong>28–35% of total revenue on labor</strong>.
+      A well-run independent café may spend roughly <strong>28--35% of total revenue on labor</strong>.
     </p>
 
     <p>
@@ -1099,7 +1095,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      <strong>I need enough people to deliver a great experience.</strong>
+      <strong>They need enough people to deliver a great experience.</strong>
     </p>
 
     <p>
@@ -1107,43 +1103,11 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      <strong>I need payroll to remain low enough for the business to survive.</strong>
+      <strong>They need payroll to remain low enough for the business to survive.</strong>
     </p>
 
     <p>
       That sounds exhausting.
-    </p>
-
-    <p>
-      Especially because a café does not simply operate during the hours when I, as the customer, happen to be sitting there with my laptop.
-    </p>
-
-    <p>
-      Someone came in before opening.
-    </p>
-
-    <p>
-      Someone prepared everything.
-    </p>
-
-    <p>
-      Someone received deliveries.
-    </p>
-
-    <p>
-      Someone cleaned afterward.
-    </p>
-
-    <p>
-      Someone manages scheduling.
-    </p>
-
-    <p>
-      Someone handles inventory.
-    </p>
-
-    <p>
-      Someone deals with the espresso machine when it suddenly decides not to cooperate during the morning rush.
     </p>
 
     <p>
@@ -1157,7 +1121,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      The general target is roughly <strong>10–14% of total revenue</strong>.
+      The general target is roughly <strong>10--14% of total revenue</strong>.
     </p>
 
     <p>
@@ -1235,7 +1199,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      The most important window is often somewhere between <strong>7:00 a.m. and noon</strong>.
+      The busiest window is often somewhere between <strong>7:00 a.m. and noon</strong>.
     </p>
 
     <p>
@@ -1311,7 +1275,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      Which raises an important business question:
+      Which raises a question the owner has to answer:
     </p>
 
     <p>
@@ -1365,11 +1329,11 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      They are not necessarily distracting from coffee.
+      They are not distracting from coffee.
     </p>
 
     <p>
-      They may be solving the economics of the space.
+      They are solving the economics of the space.
     </p>`,
 
     `<h2 style="color: #08306B;">Why Do So Many Cafés Fail?</h2>
@@ -1379,7 +1343,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      Estimates suggest that a significant percentage of independent coffee shops fail within their first five years.
+      A large share of independent coffee shops close within their first five years.
     </p>
 
     <p>
@@ -1406,75 +1370,7 @@ print(classes[ans[0]])</code></pre>`,
     </ul>
 
     <p>
-      That last one might be the most interesting.
-    </p>
-
-    <p>
-      From the customer side, cafés feel simple.
-    </p>
-
-    <p>
-      Order.
-    </p>
-
-    <p>
-      Coffee.
-    </p>
-
-    <p>
-      Sit.
-    </p>
-
-    <p>
-      Work.
-    </p>
-
-    <p>
-      Leave.
-    </p>
-
-    <p>
-      Behind the counter, however, it is a logistics operation.
-    </p>
-
-    <p>
-      Inventory needs to arrive.
-    </p>
-
-    <p>
-      Milk needs to remain stocked.
-    </p>
-
-    <p>
-      Employees need scheduling.
-    </p>
-
-    <p>
-      Equipment needs maintenance.
-    </p>
-
-    <p>
-      Health regulations need compliance.
-    </p>
-
-    <p>
-      Food has shelf lives.
-    </p>
-
-    <p>
-      Beans have freshness windows.
-    </p>
-
-    <p>
-      Customers arrive unpredictably.
-    </p>
-
-    <p>
-      Morning demand can explode within minutes.
-    </p>
-
-    <p>
-      And every small operational problem eventually becomes financial.
+      Every small operational problem eventually becomes financial.
     </p>`,
 
     `<h2 style="color: #08306B;">A Small Neighborhood Café: What Could the Numbers Look Like?</h2>
@@ -1500,7 +1396,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      <strong>$25,000–$32,000.</strong>
+      <strong>$25,000--$32,000.</strong>
     </p>
 
     <p>
@@ -1508,7 +1404,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      <strong>$37,500–$48,000.</strong>
+      <strong>$37,500--$48,000.</strong>
     </p>
 
     <p>
@@ -1531,231 +1427,6 @@ print(classes[ans[0]])</code></pre>`,
       You may have invested more than $200,000 into a business that ultimately produces an income comparable to a regular salary while requiring enormous operational responsibility.
     </p>`,
 
-    `<h2 style="color: #08306B;">What About a Bigger Café?</h2>
-
-    <p>
-      Now imagine a larger flagship café.
-    </p>
-
-    <p>
-      Maybe around 1,500 square feet.
-    </p>
-
-    <p>
-      Premium location.
-    </p>
-
-    <p>
-      Beautiful design.
-    </p>
-
-    <p>
-      Serious specialty-coffee program.
-    </p>
-
-    <p>
-      Full kitchen or strong food menu.
-    </p>
-
-    <p>
-      Now the startup investment might approach <strong>$300,000 to $400,000</strong>.
-    </p>
-
-    <p>
-      But the revenue potential also becomes much larger.
-    </p>
-
-    <p>
-      A strong operation could eventually generate roughly <strong>$600,000 to $900,000 annually</strong>.
-    </p>
-
-    <p>
-      At a 10–15% margin, that might translate into:
-    </p>
-
-    <p>
-      <strong>$60,000 to $135,000 in annual net profit.</strong>
-    </p>
-
-    <p>
-      The very strongest independent flagship cafés can potentially go beyond that, particularly once they build years of customer loyalty, develop strong food revenue, and operate extremely efficiently.
-    </p>
-
-    <p>
-      That can become a genuinely valuable business.
-    </p>
-
-    <p>
-      But the risk is also much higher.
-    </p>
-
-    <p>
-      More rent.
-    </p>
-
-    <p>
-      More employees.
-    </p>
-
-    <p>
-      More equipment.
-    </p>
-
-    <p>
-      More inventory.
-    </p>
-
-    <p>
-      More capital tied up before opening.
-    </p>
-
-    <p>
-      More ways for a small percentage mistake to become a very large dollar amount.
-    </p>`,
-
-    `<h2 style="color: #08306B;">A Few Percentage Points Can Decide Everything</h2>
-
-    <p>
-      This may be the strangest thing I learned while researching café economics.
-    </p>
-
-    <p>
-      The difference between success and failure often does not look dramatic.
-    </p>
-
-    <p>
-      It might simply be:
-    </p>
-
-    <p>
-      Rent at 12% instead of 17%.
-    </p>
-
-    <p>
-      Labor at 32% instead of 37%.
-    </p>
-
-    <p>
-      Enough cash for six slow months instead of three.
-    </p>
-
-    <p>
-      An additional revenue stream in the afternoon.
-    </p>
-
-    <p>
-      A $5,000 repair arriving while you still have emergency reserves rather than after they are exhausted.
-    </p>
-
-    <p>
-      These are not exciting differences.
-    </p>
-
-    <p>
-      Nobody posts an Instagram Reel celebrating that their labor percentage came in two points under target.
-    </p>
-
-    <p>
-      But these boring little numbers may matter more than almost everything customers can actually see.
-    </p>`,
-
-    `<h2 style="color: #08306B;">The Best Coffee Shop Isn't Necessarily the Best Café Business</h2>
-
-    <p>
-      Before researching this, I probably would have imagined the perfect café around the things I personally love.
-    </p>
-
-    <p>
-      Amazing coffee.
-    </p>
-
-    <p>
-      Beautiful interior.
-    </p>
-
-    <p>
-      Comfortable seats.
-    </p>
-
-    <p>
-      Lots of natural light.
-    </p>
-
-    <p>
-      Interesting single-origin beans.
-    </p>
-
-    <p>
-      Good music.
-    </p>
-
-    <p>
-      Friendly baristas.
-    </p>
-
-    <p>
-      Strong Wi-Fi.
-    </p>
-
-    <p>
-      Enough outlets for me to disappear into my laptop for three hours.
-    </p>
-
-    <p>
-      And those things absolutely matter.
-    </p>
-
-    <p>
-      They create the experience.
-    </p>
-
-    <p>
-      They create loyalty.
-    </p>
-
-    <p>
-      They give people a reason to choose one café instead of another.
-    </p>
-
-    <p>
-      But the cafés that survive are not necessarily the ones with the prettiest interiors or the most sophisticated pour-over menu.
-    </p>
-
-    <p>
-      They are the ones where somebody behind the scenes understands the business extremely well.
-    </p>
-
-    <p>
-      They know their rent percentage.
-    </p>
-
-    <p>
-      They know their labor percentage.
-    </p>
-
-    <p>
-      They know how many transactions they need every morning.
-    </p>
-
-    <p>
-      They know their average ticket size.
-    </p>
-
-    <p>
-      They know which products make money.
-    </p>
-
-    <p>
-      They know when traffic drops.
-    </p>
-
-    <p>
-      They know how much cash they have left.
-    </p>
-
-    <p>
-      And ideally, they knew most of those numbers <strong>before signing the lease.</strong>
-    </p>`,
 
     `<h2 style="color: #08306B;">Would I Still Want to Own a Café?</h2>
 
@@ -1840,11 +1511,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      A good café is not simply selling a $5 drink that costs less than a dollar to make.
-    </p>
-
-    <p>
-      It is selling routine.
+      A good café is selling routine.
     </p>
 
     <p>
