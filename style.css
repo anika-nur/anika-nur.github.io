@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════
-   Nur's Utopia — style.css
+   Nur's Utopia -- style.css
    Aesthetic: Vintage Poster × La Bohème
    Palette: dusty steel-blue, warm ivory, muted sage, dusty rose, warm gold
    ══════════════════════════════════════════ */
@@ -1278,7 +1278,7 @@ footer {
   min-height: calc(100vh - 64px);
 }
 
-/* per-section accent colors — removed low-contrast overrides; all labels/ornaments use cream */
+/* per-section accent colors -- removed low-contrast overrides; all labels/ornaments use cream */
 
 /* ════════════════════════
    INDIVIDUAL WRITING PAGE
@@ -1534,7 +1534,7 @@ footer {
 
 /* ════════════════════════
    PAPER GRAIN TEXTURE
-   (inline SVG injected in each HTML file — sits above bg blobs,
+   (inline SVG injected in each HTML file -- sits above bg blobs,
     below particles/content via z-index layering)
    ════════════════════════ */
 .grain-overlay {

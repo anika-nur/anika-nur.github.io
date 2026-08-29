@@ -1,9 +1,9 @@
 /* ══════════════════════════════════════════
-   Writings — add one entry per piece.
-   - id: unique, URL-safe slug (no spaces) — used in the "Read more" link
-   - genre: e.g. "Scribbles", "Essay", "Poetry", "Short Story" — shown as a label
+   Writings -- add one entry per piece.
+   - id: unique, URL-safe slug (no spaces) -- used in the "Read more" link
+   - genre: e.g. "Scribbles", "Essay", "Poetry", "Short Story" -- shown as a label
    - excerpt: short teaser shown on the Home page and the archive page
-   - poem: set to true for poetry — preserves line breaks and uses poem spacing
+   - poem: set to true for poetry -- preserves line breaks and uses poem spacing
    - body: the full piece, as an array of paragraphs (or stanzas for poems)
      (each array item becomes its own <p> on the full page; use \n inside
      a string for a line break within that paragraph/stanza)
@@ -30,9 +30,9 @@ const writingsData = [
     poem: false,
   body: [
   `I feel there’s something persisting in the space between happiness and sadness. It’s not joy, sorrow, or nostalgia. It’s something more elusive with its heaviness and strange comfort at the same time.
-  It’s certainly not hope. Hope has a direction, stretching toward some distant end, but this has no direction—it only rests, like some kind of emotional stillness, like the pause between heartbeats or like the ocean holding its breath before the next wave rises.`,
+  It’s certainly not hope. Hope has a direction, stretching toward some distant end, but this has no direction--it only rests, like some kind of emotional stillness, like the pause between heartbeats or like the ocean holding its breath before the next wave rises.`,
 
-  `At night, I walk with it sometimes, under the still moon peering down at the ground it cannot touch—and realize it feels like that moon. I don’t know what it wants from me; I only know that it has settled inside me and made itself at home. And then I find myself in the ache of not knowing how to name it. So, today I named it ‘Moondrae’.`
+  `At night, I walk with it sometimes, under the still moon peering down at the ground it cannot touch--and realize it feels like that moon. I don’t know what it wants from me; I only know that it has settled inside me and made itself at home. And then I find myself in the ache of not knowing how to name it. So, today I named it ‘Moondrae’.`
 ]
   },
   {
@@ -70,7 +70,7 @@ const writingsData = [
     ]
   }
 
-  // Add new writings below — copy a block above and edit the fields.
+  // Add new writings below -- copy a block above and edit the fields.
   // {
   //   id: "some-piece",
   //   genre: "Short Story",      // or "Essay", "Poetry", "Scribbles", etc.

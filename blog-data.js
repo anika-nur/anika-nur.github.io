@@ -1,6 +1,6 @@
 /* ══════════════════════════════════════════
-   Blog posts — add one entry per post.
-   - id: unique, URL-safe slug — used in the "Read more" link
+   Blog posts -- add one entry per post.
+   - id: unique, URL-safe slug -- used in the "Read more" link
    - title: post title
    - month: abbreviated month shown in the date column (e.g. "Jun")
    - day: two-digit day shown in the date column (e.g. "03")
@@ -93,7 +93,7 @@ const blogData = [
     </p>
 
     <p>
-      The third is <strong>prevention</strong>. Healthcare systems have traditionally invested heavily in treating people after disease develops. Better analytics, diagnostics, wearables, and biological data could help identify disease earlier—or potentially identify risk before serious disease develops.
+      The third is <strong>prevention</strong>. Healthcare systems have traditionally invested heavily in treating people after disease develops. Better analytics, diagnostics, wearables, and biological data could help identify disease earlier--or potentially identify risk before serious disease develops.
     </p>
 
     <p>
@@ -187,7 +187,7 @@ const blogData = [
     </p>
 
     <p>
-      Before a drug reaches patients, it must move through clinical development—and clinical trials remain enormously expensive, slow, and complicated.
+      Before a drug reaches patients, it must move through clinical development--and clinical trials remain enormously expensive, slow, and complicated.
     </p>
 
     <p>
@@ -241,7 +241,7 @@ const blogData = [
     </p>
 
     <p>
-      Instead of relying entirely on conventional trial structures, researchers may eventually be able to simulate certain scenarios computationally before—or alongside—testing them in humans.
+      Instead of relying entirely on conventional trial structures, researchers may eventually be able to simulate certain scenarios computationally before--or alongside--testing them in humans.
     </p>
 
     <p>
@@ -287,7 +287,7 @@ const blogData = [
     </p>
 
     <p>
-      For some patients—particularly those affected by rare or serious diseases—sharing anonymized health data may feel worthwhile if it helps researchers develop treatments for others facing the same illness.
+      For some patients--particularly those affected by rare or serious diseases--sharing anonymized health data may feel worthwhile if it helps researchers develop treatments for others facing the same illness.
     </p>
 
     <p>
@@ -313,7 +313,7 @@ const blogData = [
     </p>
 
     <p>
-      A patient may receive imaging at one hospital, laboratory testing from another provider, and treatment from a third physician—only to discover that the systems do not communicate properly.
+      A patient may receive imaging at one hospital, laboratory testing from another provider, and treatment from a third physician--only to discover that the systems do not communicate properly.
     </p>
 
     <p>
@@ -526,7 +526,7 @@ const blogData = [
       It may be <strong>doctors using AI versus doctors forced to work without it</strong>.
     </p>`,
 
-    `<h2 style="color:#08519C">The Next Three Years May Be Less About New Technology—and More About Integration</h2>
+    `<h2 style="color:#08519C">The Next Three Years May Be Less About New Technology--and More About Integration</h2>
 
     <p>
       When the panelists were asked what healthcare innovation might look like several years from now, one answer was surprisingly unglamorous.
@@ -585,11 +585,11 @@ const blogData = [
       `To put it simply, it is a task where the system takes an input image and classifies it with an appropriate label. The label is always from a predefined set of possible categories.`,
       `Let's say, categories = {cat, dog, panda}<br>Then we present the following image (Figure 1) to our classification system:`,
       `<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*KlGVNzIXL8KA-qio.jpg" /><figcaption>Figure 1: Panda</figcaption></figure>`,
-      `Our goal here is to take this input image and assign a label to it from our categories set — in this case, the appropriate label will be 'panda'.`,
+      `Our goal here is to take this input image and assign a label to it from our categories set -- in this case, the appropriate label will be 'panda'.`,
       `While it seems like you are just giving an image and the computer is analyzing it and assigning labels, the actual process is much more intricate as computers don't see a picture the way a human does- all they see or understand is a big matrix of pixels, with each pixel containing numerical values representing the intensity of red, green, and blue colors:`,
       `<figure><img alt="" src="https://cdn-images-1.medium.com/max/850/1*jDb0K5v0KFNoXkcsRbt9nQ.jpeg" /><figcaption>Image of a Person's Face as a matrix of Pixel values</figcaption></figure>`,
       `The pixel values can then be used as input to a machine-learning algorithm for image classification.`,
-      `Deep Learning algorithms, such as <strong>CNN</strong> are the most used method to assign a class and a label to an image. CNN can automatically learn and extract features from the images, such as edges, textures, or shapes, to enable the model to learn and make predictions — <strong>this process is known as Feature Extraction.</strong>`,
+      `Deep Learning algorithms, such as <strong>CNN</strong> are the most used method to assign a class and a label to an image. CNN can automatically learn and extract features from the images, such as edges, textures, or shapes, to enable the model to learn and make predictions -- <strong>this process is known as Feature Extraction.</strong>`,
       `<blockquote><strong>What's the goal of my write-up?</strong> When we just step into the world of machine learning, we first learn the traditional machine learning algorithms (SVM, KNN, etc.) before going for Deep Learning. As image classification is one of the most fundamental projects, I want to show how will be the performance or result scenario if we only use traditional ML algorithms.</blockquote>`,
       `<h4>First, what happens if you don't use CNN or any deep learning techniques?</h4>`,
       `As CNN can perform automatic feature extraction, you typically have to perform manual feature extraction and selection if you only use traditional ML algorithms.`,
@@ -597,7 +597,7 @@ const blogData = [
       `<strong>Before we jump in, here are some quick info:</strong>`,
       `<ul>
         <li>I wrote and ran all codes in <a href="https://jupyter.org/" target="_blank" rel="noopener">Jupyter Notebook</a>. To me, this is the most handy computing platform if you are using Python.</li>
-        <li>This is not a machine learning intro article. I assume you understand the basics of ML. If you are not aware, check out my <a href="https://medium.com/@farihanur1438/voice-recordings-machine-learning-and-parkinsons-detection-fa08c31edd36" target="_blank" rel="noopener">article</a> where I explained how ML works with a real-world application — detecting Parkinson's through voice recordings!</li>
+        <li>This is not a machine learning intro article. I assume you understand the basics of ML. If you are not aware, check out my <a href="https://medium.com/@farihanur1438/voice-recordings-machine-learning-and-parkinsons-detection-fa08c31edd36" target="_blank" rel="noopener">article</a> where I explained how ML works with a real-world application -- detecting Parkinson's through voice recordings!</li>
         <li>I'm not going to explain the mathematical intuitions behind the algorithms. For that, I've linked some detailed articles at the end of my article.</li>
       </ul>`,
       `<h3>1. Select Dataset:</h3>`,
@@ -607,7 +607,7 @@ const blogData = [
       `Before anything, don't forget to import the necessary packages (Numpy, Scikit-learn, OpenCV, Matlpotlib) on your Jupyter Notebook. CIFAR-10 is a Keras (an open-source library for Deep learning) dataset, so you can directly download it from Keras with the code below:`,
       `<em>(Well, I know to code with Keras you need knowledge of TensorFlow, ie. a part of deep learning. But I just learned the concept of loading data with Keras as this is the most handy dataset to work with Image Classification.)</em>`,
       `<pre><code>(x_train, y_train), (x_test, y_test) = keras.datasets.cifar10.load_data()</code></pre>`,
-      `As you might have already known the dataset is divided into two parts — training and test sets. The training dataset is used to train our model and then the trained model is tested on the test dataset to evaluate the performance of the model. But look, the beauty of the Keras dataset is that you can directly obtain train and test sets while loading, so no need for a separate <strong>train-test-split code</strong>.`,
+      `As you might have already known the dataset is divided into two parts -- training and test sets. The training dataset is used to train our model and then the trained model is tested on the test dataset to evaluate the performance of the model. But look, the beauty of the Keras dataset is that you can directly obtain train and test sets while loading, so no need for a separate <strong>train-test-split code</strong>.`,
       `<h3>3. Dataset Pre-possessing:</h3>`,
       `It's a crucial step that involves steps like identifying and correcting errors or inconsistencies in the data, such as missing values, outliers, and duplicates. In the case of image classification with the CIFAR-10 dataset, the necessary steps would be:`,
       `<ul><li><strong>Normalization:</strong> The pixel values can range from 0 to 255. Computation of high numeric values can become extremely complex. So instead of using the images as they are, we reduce their pixel range.<br>As the highest pixel value is 255, dividing all the pixel values by 255 will convert the pixel values of all images to a range from 0 to 1.</li></ul>`,
@@ -621,7 +621,7 @@ x_trained.shape
 #the output will be: (10000, 3072)</code></pre>`,
       `See, I have reshaped the training dataset from (50000,32,32,3) which is a 4D array, to (50000,3072), a 2D array. The number 3072 is obtained by multiplying the number of pixels in the x-dimension, the number of pixels in the y-dimension, and the number of color channels.<br>The testing dataset needs to be reshaped too!`,
       `<h3>4. Model Training:</h3>`,
-      `Now comes the most exciting part, implementing ML algorithms! I applied 4 popular algorithms — SVM, Random Forest Classifier, KNN, and Decision Tree Classifier.`,
+      `Now comes the most exciting part, implementing ML algorithms! I applied 4 popular algorithms -- SVM, Random Forest Classifier, KNN, and Decision Tree Classifier.`,
       `<h4>Support Vector Machine (SVM):</h4>`,
       `First, create a Random Forest Classifier using the SVM class from Scikit-learn. The fit method is then called on the classifier object to train the model on the training data. The x_trained parameter represents the input features of the training data (pixel values), while the y_train parameter represents the corresponding target labels.`,
       `<pre><code>svc=SVM()
@@ -673,12 +673,12 @@ print(classes[ans[0]])</code></pre>`,
 
   {
   id: "what-it-actually-takes-to-own-a-cafe",
-  title: "I Love Cafés—So I Researched The Economics of Owning One",
+  title: "I Love Cafés--So I Researched The Economics of Owning One",
   month: "Aug 2026",
   day: "17",
   tags: ["Non-technical", "Business"],
   excerpt:
-    "I love café hopping, trying different types of coffee, and finding cafés where I can sit down with my laptop and completely lock in. That curiosity eventually made me wonder what it would actually take to own one—and the business behind a cozy café is much more complicated than it looks.",
+    "I love café hopping, trying different types of coffee, and finding cafés where I can sit down with my laptop and completely lock in. That curiosity eventually made me wonder what it would actually take to own one--and the business behind a cozy café is much more complicated than it looks.",
   body: [
     `<p>
       I love café hopping.
@@ -689,7 +689,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      There is something about cafés that has always appealed to me. The smell of freshly ground coffee, the quiet background conversations, the sound of milk steaming behind the counter, people working on laptops, friends catching up, someone reading alone in the corner—it all creates an atmosphere that I genuinely enjoy.
+      There is something about cafés that has always appealed to me. The smell of freshly ground coffee, the quiet background conversations, the sound of milk steaming behind the counter, people working on laptops, friends catching up, someone reading alone in the corner--it all creates an atmosphere that I genuinely enjoy.
     </p>
 
     <p>
@@ -1318,7 +1318,7 @@ print(classes[ans[0]])</code></pre>`,
       <strong>How do you make money after the morning rush?</strong>
     </p>`,
 
-    `<h2 style="color: #08306B;">The Best Cafés Give People Reasons to Stay—or Return—Later</h2>
+    `<h2 style="color: #08306B;">The Best Cafés Give People Reasons to Stay--or Return--Later</h2>
 
     <p>
       This made me think differently about cafés that sell more than coffee.
@@ -1885,7 +1885,7 @@ print(classes[ans[0]])</code></pre>`,
   ]
 }
 
-  // Add new posts below — newest first so they appear at the top.
+  // Add new posts below -- newest first so they appear at the top.
   // {
   //   id: "my-post-slug",
   //   title: "Post Title",

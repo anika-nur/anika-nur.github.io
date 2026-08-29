@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════
-   Shared "like" (star) button logic — backed by Supabase.
+   Shared "like" (star) button logic -- backed by Supabase.
    Include the Supabase CDN script BEFORE this file, then call
    initLikeButtons() once your cards/post header are in the DOM.
 

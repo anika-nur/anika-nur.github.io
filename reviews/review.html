@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="pageTitle">Review — Nur's Utopia</title>
+<title id="pageTitle">Review -- Nur's Utopia</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Crimson+Text:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
@@ -93,7 +93,7 @@
   const content = document.getElementById('reviewContent');
 
   if (review) {
-    document.getElementById('pageTitle').textContent = `${review.title} — Nur's Utopia`;
+    document.getElementById('pageTitle').textContent = `${review.title} -- Nur's Utopia`;
     content.innerHTML = `
       <header class="writing-page-header">
         <p class="writing-genre">${review.type === 'TV Show' ? '📺' : '🎬'} ${review.type}</p>
