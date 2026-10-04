@@ -685,7 +685,7 @@ print(classes[ans[0]])</code></pre>`,
     </p>
 
     <p>
-      Whenever I visit a new neighborhood or travel somewhere unfamiliar, one of the first things I do is look for a good café. I love trying different kinds of coffee and ranking them based on taste, comparing drinks, noticing how different cafés design their spaces, and finding those places where you can sit down with your laptop and completely lock in for a few hours.
+      Whenever I visit a new neighborhood or travel somewhere unfamiliar, one of the first things I do is look for a good café. I love trying different kinds of coffee and ranking them based on taste, comparing drinks, noticing how different cafés design their spaces, and finding those places where I can sit down with my laptop and completely lock in for a few hours.
     </p>
 
     <p>
