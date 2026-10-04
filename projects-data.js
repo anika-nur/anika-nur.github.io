@@ -93,6 +93,17 @@ github: "https://github.com/anika-nur/Microbiome_Analysis_with_Python.git",
 live: null,
 files: [],
 readme: []
+},
+{
+id: "kintsugi",
+type: "CS",
+title: "Kintsugi",
+excerpt: "You write about a hard period. The difficulties become cracks in a bowl, and whatever helped you through becomes the gold.",
+tags: ["HTML", "CSS", "JavaScript"],
+github: "https://github.com/anika-nur/Kintsugi.git",
+live: "https://kintsugi-colby.github.io/",
+files: [],
+readme: []
 }
 
   // Add new projects below -- copy a block above and edit the fields.
